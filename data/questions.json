@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "Summer2025!",
+    "optionB": "summer2025",
+    "correctAnswer": "A",
+    "explanation": "パスワードには大文字、小文字、数字、特殊文字を含めることでセキュリティが向上します。"
+  },
+  {
+    "id": 2,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "qwerty123456",
+    "optionB": "K7%pR9@tL8",
+    "correctAnswer": "B",
+    "explanation": "ランダムな文字列で特殊文字を含むパスワードは解読が困難なため安全性が高まります。"
+  },
+  {
+    "id": 3,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "ILoveFishing",
+    "optionB": "1L0v3F!$h1ng",
+    "correctAnswer": "B",
+    "explanation": "文字の一部を数字や記号に置き換えると、パスワードの強度が大幅に向上します。"
+  },
+  {
+    "id": 4,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の銀行からのメールアドレスですか？",
+    "optionA": "support@mizuho-bank.co.jp",
+    "optionB": "support@mizuho-bank.secure-login.com",
+    "correctAnswer": "A",
+    "explanation": "公式ドメイン（この場合はmizuho-bank.co.jp）を使用しているメールアドレスが本物です。詐欺メールは信頼性を装うために類似ドメインを使用することがあります。"
+  },
+  {
+    "id": 5,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物のAmazonからのメールアドレスですか？",
+    "optionA": "amazon-shipping@mail.amazon.co.jp",
+    "optionB": "amazon-shipping@amazon-delivery.info",
+    "correctAnswer": "A",
+    "explanation": "公式ドメイン（amazon.co.jp）を使用しているメールアドレスが本物です。amazon-delivery.infoのような類似ドメインは詐欺の可能性があります。"
+  },
+  {
+    "id": 6,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物のMicrosoftからのメールアドレスですか？",
+    "optionA": "security-noreply@microsoftonline.com",
+    "optionB": "microsoft-security@outlook-verify.com",
+    "correctAnswer": "A",
+    "explanation": "microsoftonline.comはMicrosoftの公式ドメインですが、outlook-verify.comは違います。送信元ドメインを確認することで詐欺メールを識別できます。"
+  },
+  {
+    "id": 7,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【緊急】アカウントロック解除手続きのお知らせ",
+    "optionB": "【お知らせ】セキュリティ対策強化のためのパスワード更新のお願い",
+    "correctAnswer": "B",
+    "explanation": "詐欺メールは多くの場合、「緊急」などの言葉を使って即時の行動を促します。落ち着いた表現のメールの方が本物の可能性が高いです。"
+  },
+  {
+    "id": 8,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【重要】24時間以内にご確認ください：未払い請求の件",
+    "optionB": "【ご案内】お客様の4月分ご利用明細について",
+    "correctAnswer": "B",
+    "explanation": "時間制限を設けて焦らせる表現は詐欺メールの特徴です。通常の取引では穏やかな表現が使われます。"
+  },
+  {
+    "id": 9,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://www.rakuten.co.jp/login",
+    "optionB": "https://rakuten-member.jp/secure/login",
+    "correctAnswer": "A",
+    "explanation": "公式ドメイン（rakuten.co.jp）を使用しているURLが安全です。rakuten-member.jpは公式ドメインではない可能性があります。"
+  },
+  {
+    "id": 10,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "http://paypal.com/signin",
+    "optionB": "https://paypal.com/signin",
+    "correctAnswer": "B",
+    "explanation": "HTTPSは通信を暗号化し、サイトの信頼性を確認するため、HTTPより安全です。特に個人情報やログイン情報を入力するサイトではHTTPSが必要です。"
+  },
+  {
+    "id": 11,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://accounts.google.corn/login",
+    "optionB": "https://accounts.google.com/login",
+    "correctAnswer": "B",
+    "explanation": "「corn」は「com」に似せた詐欺ドメインの例です。URLのスペルミスに注意することが重要です。"
+  },
+  {
+    "id": 12,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Youtube",
+    "optionB": "YouTube",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「YouTube」で、「T」が大文字です。詐欺サイトはしばしば微妙な表記の違いを利用します。"
+  },
+  {
+    "id": 13,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "PayPal",
+    "optionB": "Paypal",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「PayPal」で、「P」が2箇所とも大文字です。"
+  },
+  {
+    "id": 14,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Linkedin",
+    "optionB": "LinkedIn",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「LinkedIn」で、「L」と「I」が大文字です。"
+  },
+  {
+    "id": 15,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Line",
+    "optionB": "LINE",
+    "correctAnswer": "B",
+    "explanation": "正確な表記はすべて大文字の「LINE」です。"
+  },
+  {
+    "id": 16,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "公共のWi-Fiで銀行取引を行う",
+    "optionB": "携帯電話のデータ通信で銀行取引を行う",
+    "correctAnswer": "B",
+    "explanation": "公共Wi-Fiは盗聴のリスクがあるため、重要な情報を扱う場合は携帯電話のデータ通信など、よりセキュアな接続を使用すべきです。"
+  },
+  {
+    "id": 17,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "知らない送信元からの添付ファイルを開く前にウイルススキャンを行う",
+    "optionB": "知らない送信元からの添付ファイルは開かない",
+    "correctAnswer": "B",
+    "explanation": "ウイルススキャンが全ての脅威を検出できるとは限りません。知らない送信元からの添付ファイルは開かないことが最も安全です。"
+  },
+  {
+    "id": 18,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "同じパスワードを変更せずに長期間使い続ける",
+    "optionB": "定期的にパスワードを変更する",
+    "correctAnswer": "B",
+    "explanation": "定期的なパスワード変更は、漏洩した場合のリスクを低減します。特に重要なアカウントではこの習慣が重要です。"
+  },
+  {
+    "id": 19,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Master Card",
+    "optionB": "MasterCard",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「MasterCard」で、スペースなし、「M」と「C」が大文字です。"
+  },
+  {
+    "id": 20,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Microsoft Office 365",
+    "optionB": "Microsoft office 365",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「Microsoft Office 365」で、「O」が大文字です。"
+  },
+  {
+    "id": 21,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "password123",
+    "optionB": "P@$$w0rd",
+    "correctAnswer": "B",
+    "explanation": "「P@$$w0rd」は特殊文字と数字を含み、一般的な辞書攻撃に対して耐性があります。単純な「password123」は辞書攻撃で容易に解読されます。"
+  },
+  {
+    "id": 22,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "B1rthd@y2025!",
+    "optionB": "19900127",
+    "correctAnswer": "A",
+    "explanation": "誕生日や個人情報に基づく数字のみのパスワード（例：19900127）は推測されやすく危険です。文字、数字、記号を混ぜたパスワードの方が安全です。"
+  },
+  {
+    "id": 23,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "fluffy-kitten-86-happy",
+    "optionB": "F1uffy$",
+    "correctAnswer": "A",
+    "explanation": "長いパスワードフレーズは短いパスワードよりも通常安全です。単語をハイフンでつなげた長いパスワードは覚えやすく、解読も困難です。"
+  },
+  {
+    "id": 24,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "123456789",
+    "optionB": "9876543210",
+    "correctAnswer": "B",
+    "explanation": "どちらも数字だけの単純なパスワードで安全とは言えませんが、「123456789」は最も一般的に使われる危険なパスワードの一つです。"
+  },
+  {
+    "id": 25,
+    "category": "パスワード強度",
+    "question": "どちらのパスワードがより安全ですか？",
+    "optionA": "CompanyName2025",
+    "optionB": "35@TreE!91Kl",
+    "correctAnswer": "B",
+    "explanation": "会社名に年号を付けただけのパスワードは推測されやすいです。ランダムな文字・数字・記号の組み合わせの方が安全性が高まります。"
+  },
+  {
+    "id": 26,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物のAppleからのメールアドレスですか？",
+    "optionA": "no-reply@email.apple.com",
+    "optionB": "apple-support@secure-apple.com",
+    "correctAnswer": "A",
+    "explanation": "email.apple.comはAppleの公式ドメインですが、secure-apple.comは非公式なドメインです。常に送信元のドメイン名を確認しましょう。"
+  },
+  {
+    "id": 27,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物のGoogleからのメールアドレスですか？",
+    "optionA": "google-alert@account-security-center.com",
+    "optionB": "noreply@google.com",
+    "correctAnswer": "B",
+    "explanation": "google.comはGoogleの公式ドメインです。「account-security-center.com」のような長い名前の類似ドメインは詐欺の可能性が高いです。"
+  },
+  {
+    "id": 28,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の日本郵便からのメールアドレスですか？",
+    "optionA": "info@delivery-japanpost.com",
+    "optionB": "no-reply@post.japanpost.jp",
+    "correctAnswer": "B",
+    "explanation": "japanpost.jpは日本郵便の公式ドメインです。delivery-japanpost.comのような類似ドメインは偽物の可能性が高いです。"
+  },
+  {
+    "id": 29,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物のメルカリからのメールアドレスですか？",
+    "optionA": "support@mercari.jp",
+    "optionB": "mercari-support@payment-secure.com",
+    "correctAnswer": "A",
+    "explanation": "mercari.jpはメルカリの公式ドメインです。payment-secure.comのような一見信頼できそうなドメインでも、公式でなければ詐欺の可能性があります。"
+  },
+  {
+    "id": 30,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【警告】あなたのアカウントがハッキングされました！今すぐ対応を！",
+    "optionB": "【セキュリティ通知】不審なログイン試行がありました",
+    "correctAnswer": "B",
+    "explanation": "過度に煽る表現や感嘆符の多用は詐欺メールの特徴です。公式の通知は通常、冷静で専門的な表現を使用します。"
+  },
+  {
+    "id": 31,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【お知らせ】サービス利用規約改定のお知らせ",
+    "optionB": "【最終警告】アカウント停止回避のための緊急対応",
+    "correctAnswer": "A",
+    "explanation": "「最終警告」「緊急」などの言葉で強い危機感を煽るタイトルは詐欺メールの典型です。正規の通知は穏やかな表現を使います。"
+  },
+  {
+    "id": 32,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【重要】クレジットカードの不正利用が検出されました - 今すぐ確認を！",
+    "optionB": "【お知らせ】クレジットカードのセキュリティ確認のお願い",
+    "correctAnswer": "B",
+    "explanation": "感嘆符を使った緊急性の高い表現は詐欺メールに多く見られます。公式の通知は通常、冷静な表現を使います。"
+  },
+  {
+    "id": 33,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://www.amazon.co.jp.secure-shop.com/account",
+    "optionB": "https://www.amazon.co.jp/gp/css/homepage.html",
+    "correctAnswer": "B",
+    "explanation": "URLのドメイン部分は末尾の「.com」より前の「secure-shop.com」であり、amazon.co.jpは単なるサブドメインとして偽装されています。正規のAmazonのURLはamazon.co.jpがドメインです。"
+  },
+  {
+    "id": 34,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://drive.google.com/document/share",
+    "optionB": "https://docs.g00gle.com/share",
+    "correctAnswer": "A",
+    "explanation": "「g00gle.com」のように文字の代わりに数字（「o」の代わりに「0」）を使うのは典型的なフィッシング手法です。注意深くURLを確認することが重要です。"
+  },
+  {
+    "id": 35,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://secure-bank-login.com/mizuho/login",
+    "optionB": "https://web.mizuhobank.co.jp/login",
+    "correctAnswer": "B",
+    "explanation": "銀行の公式ドメイン（mizuhobank.co.jp）を使用しているURLが安全です。「secure-bank-login.com」のような一見安全そうなドメインでも、偽サイトの可能性があります。"
+  },
+  {
+    "id": 36,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://mail-google.com/gmail/login",
+    "optionB": "https://mail.google.com/mail/u/0/",
+    "correctAnswer": "B",
+    "explanation": "「mail-google.com」はGoogleの公式ドメインではありません。ハイフンの有無に注意してください。公式のGmailは「mail.google.com」ドメインを使用しています。"
+  },
+  {
+    "id": 37,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://www.nttdocomo.co.jp/mydocomo/",
+    "optionB": "http://www.nttdocomo.co.jp.mydocomo-secure.net/login",
+    "correctAnswer": "A",
+    "explanation": "「nttdocomo.co.jp.mydocomo-secure.net」では、実際のドメインは「mydocomo-secure.net」であり、nttdocomo.co.jpは偽装の一部です。また、重要なサイトがHTTPSではなくHTTPを使っているのも不審です。"
+  },
+  {
+    "id": 38,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Gmail",
+    "optionB": "GMail",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「Gmail」で、「M」は小文字です。詐欺メールや偽サイトでは細かな表記の違いがあることがあります。"
+  },
+  {
+    "id": 39,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "WhatsApp",
+    "optionB": "Whatsapp",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「WhatsApp」で、「W」と「A」が大文字です。表記の違いに注意することで偽サイトを見分けられることがあります。"
+  },
+  {
+    "id": 40,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "instagram",
+    "optionB": "Instagram",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「Instagram」で、「I」が大文字です。小さな表記の違いが詐欺サイトを見分けるヒントになります。"
+  },
+  {
+    "id": 41,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Amazon Prime",
+    "optionB": "amazon prime",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「Amazon Prime」で、「A」と「P」が大文字です。ブランド名の正確な大文字小文字の使い方を知っておくことは重要です。"
+  },
+  {
+    "id": 42,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "NINTENDO SWITCH",
+    "optionB": "Nintendo Switch",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「Nintendo Switch」で、「N」と「S」のみが大文字です。すべて大文字の表記は公式ではありません。"
+  },
+  {
+    "id": 43,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Dropbox",
+    "optionB": "DropBox",
+    "correctAnswer": "A",
+    "explanation": "正確な表記は「Dropbox」で、「D」のみが大文字です。「B」は小文字が正しい表記です。"
+  },
+  {
+    "id": 44,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "Playstation 5",
+    "optionB": "PlayStation 5",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「PlayStation 5」で、「P」と「S」が大文字です。ソニーの公式表記では「S」も大文字になっています。"
+  },
+  {
+    "id": 45,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "同僚から送られてきたExcelファイルのマクロを有効にして開く",
+    "optionB": "同僚に確認してから、必要な場合のみマクロを有効にする",
+    "correctAnswer": "B",
+    "explanation": "マクロは悪意のあるコードを実行する可能性があります。送信者に確認してから有効にすることで、リスクを低減できます。"
+  },
+  {
+    "id": 46,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "会社のパソコンにセキュリティソフトをインストールせずに使用する",
+    "optionB": "会社が推奨するセキュリティソフトをインストールして使用する",
+    "correctAnswer": "B",
+    "explanation": "セキュリティソフトはマルウェアや不正アクセスからデバイスを保護します。特に企業環境では、適切なセキュリティ対策が重要です。"
+  },
+  {
+    "id": 47,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "オンラインショッピングの支払い情報を保存しておく",
+    "optionB": "毎回支払い情報を入力する",
+    "correctAnswer": "B",
+    "explanation": "支払い情報を保存すると便利ですが、アカウントが侵害された場合のリスクが高まります。重要な情報は毎回入力する方が安全です。"
+  },
+  {
+    "id": 48,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "二要素認証を全てのアカウントで有効にする",
+    "optionB": "パスワードのみでログインする",
+    "correctAnswer": "A",
+    "explanation": "二要素認証は、パスワードが漏洩した場合でも第二の認証要素でアカウントを保護します。重要なアカウントでは特に有効にすべきです。"
+  },
+  {
+    "id": 49,
+    "category": "セキュリティ行動判断",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "PCを長時間離れる時はシャットダウンするか、ロックする",
+    "optionB": "PCをそのまま離席する",
+    "correctAnswer": "A",
+    "explanation": "PCをロックせずに離席すると、不正アクセスのリスクがあります。短時間でもPCをロックする習慣をつけることが重要です。"
+  },
+  {
+    "id": 50,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "SNSで自分の誕生日、出身地、家族構成などの個人情報を公開する",
+    "optionB": "SNSで公開する個人情報を最小限に抑える",
+    "correctAnswer": "B",
+    "explanation": "個人情報はパスワードリセットの質問回答や身元確認に使われることがあります。SNSでの過度な情報公開は、なりすましのリスクを高めます。"
+  },
+  {
+    "id": 51,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "見知らぬ人から電話で会社情報の確認を求められたらすぐに答える",
+    "optionB": "相手の身元を確認し、必要なら折り返し公式の連絡先に電話する",
+    "correctAnswer": "B",
+    "explanation": "なりすまし電話は情報収集の手段として使われます。相手の身元確認と公式連絡先への折り返し確認が重要です。"
+  },
+  {
+    "id": 52,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "会社のセキュリティポリシーに例外を求める相手に柔軟に対応する",
+    "optionB": "会社のセキュリティポリシーを厳守し、例外は正規の手続きを踏む",
+    "correctAnswer": "B",
+    "explanation": "セキュリティポリシーの例外を求める要求は、社会的エンジニアリング攻撃の典型です。ルールを曲げることなく、正規の手続きを踏むことが重要です。"
+  },
+  {
+    "id": 53,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "緊急と言われたら、通常のセキュリティ手順を省略して対応する",
+    "optionB": "緊急であっても、基本的なセキュリティ確認手順を守る",
+    "correctAnswer": "B",
+    "explanation": "「緊急」は社会的エンジニアリング攻撃でよく使われる言葉です。緊急時こそ冷静に基本的なセキュリティ手順を守ることが重要です。"
+  },
+  {
+    "id": 54,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "権威ある人物（上司や経営者）を名乗る人からの要求には迅速に従う",
+    "optionB": "権威ある人物からの通常と異なる要求は、別の手段で確認する",
+    "correctAnswer": "B",
+    "explanation": "権威ある人物になりすますのは一般的な詐欺手法です。特に財務情報やパスワードなどを求める異常な要求は、直接確認するべきです。"
+  },
+  {
+    "id": 55,
+    "category": "データバックアップとリカバリー",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "重要なデータは一箇所のみに保存する",
+    "optionB": "重要なデータを複数の場所にバックアップする",
+    "correctAnswer": "B",
+    "explanation": "3-2-1バックアップ原則（3つのコピー、2種類の媒体、1つはオフサイト）に従うことで、データ喪失のリスクを大幅に減らせます。"
+  },
+  {
+    "id": 56,
+    "category": "データバックアップとリカバリー",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "バックアップを定期的に実行する",
+    "optionB": "バックアップは必要と感じたときだけ実行する",
+    "correctAnswer": "A",
+    "explanation": "定期的なバックアップをスケジュールすることで、人為的ミスによるバックアップ漏れを防ぎ、データ損失のリスクを減らせます。"
+  },
+  {
+    "id": 57,
+    "category": "データバックアップとリカバリー",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "バックアップからの復元テストを定期的に実施する",
+    "optionB": "バックアップがあるので、復元テストは不要",
+    "correctAnswer": "A",
+    "explanation": "バックアップファイルが破損していたり、復元手順に問題があったりする可能性があります。定期的な復元テストで、実際に使えるバックアップであることを確認すべきです。"
+  },
+  {
+    "id": 58,
+    "category": "データバックアップとリカバリー",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "クラウドストレージにデータを保存する際、暗号化せずにアップロードする",
+    "optionB": "クラウドストレージに機密データをアップロードする前に暗号化する",
+    "correctAnswer": "B",
+    "explanation": "クラウドサービス自体がセキュリティ対策を行っていても、機密データは自分で暗号化することで追加の保護層を提供します。"
+  },
+  {
+    "id": 59,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "セキュリティソフトのアップデートは月に一度程度行う",
+    "optionB": "セキュリティソフトは常に最新の状態に保つ",
+    "correctAnswer": "B",
+    "explanation": "新しいマルウェアやウイルスは日々発見されています。セキュリティソフトを常に最新の状態に保つことで、最新の脅威から保護されます。"
+  },
+  {
+    "id": 60,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "OSやアプリケーションの更新通知が来たらすぐに適用する",
+    "optionB": "更新は面倒なので後回しにする",
+    "correctAnswer": "A",
+    "explanation": "ソフトウェアの更新には重要なセキュリティパッチが含まれていることが多いです。更新を先延ばしにすると、既知の脆弱性を悪用される可能性があります。"
+  },
+  {
+    "id": 61,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "信頼できないサイトからソフトウェアをダウンロードして使用する",
+    "optionB": "信頼できる公式サイトからのみソフトウェアをダウンロードする",
+    "correctAnswer": "B",
+    "explanation": "非公式サイトからダウンロードしたソフトウェアには、マルウェアが仕込まれている可能性があります。常に公式サイトや信頼できるアプリストアを利用しましょう。"
+  },
+  {
+    "id": 62,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "不審なポップアップ広告をクリックして閉じる",
+    "optionB": "不審なポップアップはブラウザのタスクマネージャーで強制終了する",
+    "correctAnswer": "B",
+    "explanation": "ポップアップ内のどの部分をクリックしても悪意のあるコードが実行される可能性があります。ブラウザのタスクマネージャーやAlt+F4などで安全に閉じましょう。"
+  },
+  {
+    "id": 63,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的より安全な行動はどちらですか？",
+    "optionA": "USBメモリを挿入したら、自動実行される内容をすぐに確認する",
+    "optionB": "USBメモリを挿入前にウイルススキャンを行う設定にしておく",
+    "correctAnswer": "B",
+    "explanation": "不明なUSBデバイスは感染源となる可能性があります。自動実行を無効にし、挿入前にスキャンする設定が望ましいです。"
+  },
+  {
+    "id": 64,
+    "category": "モバイルセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "スマートフォンはパスコードなしで使用する",
+    "optionB": "スマートフォンには複雑なパスコードまたは生体認証を設定する",
+    "correctAnswer": "B",
+    "explanation": "モバイルデバイスには多くの個人情報が保存されています。パスコードや生体認証でロックすることで、紛失・盗難時の情報漏洩リスクを低減できます。"
+  },
+  {
+    "id": 65,
+    "category": "モバイルセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "アプリは公式ストア（App Store/Google Play）からのみインストールする",
+    "optionB": "サードパーティのアプリストアや直接APKファイルからインストールする",
+    "correctAnswer": "A",
+    "explanation": "公式ストアではアプリのセキュリティチェックが行われています。非公式ソースからのアプリはマルウェアのリスクが高まります。"
+  },
+  {
+    "id": 66,
+    "category": "モバイルセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "モバイルデバイスのOSやアプリを最新バージョンに保つ",
+    "optionB": "動作が安定しているので古いバージョンを使い続ける",
+    "correctAnswer": "A",
+    "explanation": "アップデートには重要なセキュリティパッチが含まれていることが多いです。古いバージョンを使い続けると、既知の脆弱性を狙った攻撃を受ける可能性があります。"
+  },
+  {
+    "id": 67,
+    "category": "モバイルセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "企業データにアクセスする個人所有のスマートフォンにMDM（モバイルデバイス管理）を適用する",
+    "optionB": "企業データにアクセスする個人所有のスマートフォンは自由に使用する",
+    "correctAnswer": "A",
+    "explanation": "MDMは企業データの保護や遠隔消去などの機能を提供します。BYODポリシーにおいても、企業データにアクセスするデバイスは適切に管理すべきです。"
+  },
+  {
+    "id": 68,
+    "category": "モバイルセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "公共の場所で仕事用のメールをチェックする際に、覗き見防止フィルターを使用する",
+    "optionB": "周りを気にせず仕事用のメールをチェックする",
+    "correctAnswer": "A",
+    "explanation": "物理的な覗き見（ショルダーハッキング）も情報漏洩の原因となります。特に機密情報を扱う場合は、覗き見防止対策を講じるべきです。"
+  },
+  {
+    "id": 69,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "公共Wi-Fiを使用する際にVPNを利用する",
+    "optionB": "公共Wi-Fiを直接使用する",
+    "correctAnswer": "A",
+    "explanation": "VPNは通信を暗号化し、公共Wi-Fiでの盗聴リスクを軽減します。特に機密情報を扱う場合は、信頼できるVPNサービスの使用を検討すべきです。"
+  },
+  {
+    "id": 70,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "家庭用Wi-Fiルーターの初期パスワードをそのまま使用する",
+    "optionB": "家庭用Wi-Fiルーターのパスワードを強力なものに変更する",
+    "correctAnswer": "B",
+    "explanation": "ルーターの初期パスワードは広く知られていることが多く、変更しないと不正アクセスのリスクがあります。強力なパスワードに変更すべきです。"
+  },
+  {
+    "id": 71,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "会社の機密情報を扱う際は、インターネットに直接接続する",
+    "optionB": "会社の機密情報を扱う際は、セキュアな社内ネットワークやVPNを使用する",
+    "correctAnswer": "B",
+    "explanation": "社内ネットワークやVPNは追加のセキュリティ層を提供し、機密情報の漏洩リスクを低減します。可能な限り、保護されたネットワーク環境で機密情報を扱いましょう。"
+  },
+  {
+    "id": 72,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "ゲストWi-Fiアクセスを提供する",
+    "optionB": "来客に社内の主要Wi-Fiネットワークのパスワードを教える",
+    "correctAnswer": "A",
+    "explanation": "ゲストネットワークは社内の主要ネットワークから分離されており、来客が意図せずマルウェアを持ち込んだ場合でも、重要なシステムへの影響を制限できます。"
+  },
+  {
+    "id": 73,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "重要なオンラインサービスでHTTP接続を許可する",
+    "optionB": "重要なオンラインサービスではHTTPS接続のみを許可する",
+    "correctAnswer": "B",
+    "explanation": "HTTPSは通信を暗号化し、中間者攻撃からデータを保護します。特に機密情報を扱うサービスでは、HTTPS接続のみを許可すべきです。"
+  },
+  {
+    "id": 74,
+    "category": "クラウドセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "クラウドサービスの認証に多要素認証を使用する",
+    "optionB": "クラウドサービスの認証にパスワードのみを使用する",
+    "correctAnswer": "A",
+    "explanation": "多要素認証は、パスワードが漏洩した場合でも追加の保護層を提供します。特にクラウドサービスなど、リモートからアクセス可能なシステムでは重要です。"
+  },
+  {
+    "id": 75,
+    "category": "クラウドセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "クラウドストレージに保存する機密データを暗号化する",
+    "optionB": "クラウドサービス提供者のセキュリティに任せて暗号化せずに保存する",
+    "correctAnswer": "A",
+    "explanation": "データの暗号化はあなたの責任の一部です。クラウドプロバイダーのセキュリティに加えて、重要データを自分で暗号化することで、セキュリティを強化できます。"
+  },
+  {
+    "id": 76,
+    "category": "クラウドセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "クラウドサービスの全ユーザーに管理者権限を与える",
+    "optionB": "クラウドサービスのアクセス権限を最小権限の原則に基づいて設定する",
+    "correctAnswer": "B",
+    "explanation": "最小権限の原則では、ユーザーに必要最小限の権限のみを付与します。これにより、誤操作や不正アクセスによる被害を最小限に抑えられます。"
+  },
+  {
+    "id": 77,
+    "category": "クラウドセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "クラウドサービスの利用規約とプライバシーポリシーを確認せずに利用する",
+    "optionB": "クラウドサービスの利用規約とプライバシーポリシーを確認してから利用する",
+    "correctAnswer": "B",
+    "explanation": "利用規約には、データの所有権や共有に関する重要な情報が含まれています。特に業務データを保存する場合は、サービスのポリシーを理解することが重要です。"
+  },
+  {
+    "id": 78,
+    "category": "IoTセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "IoTデバイスの初期パスワードをそのまま使用する",
+    "optionB": "IoTデバイスのパスワードを強力なものに変更する",
+    "correctAnswer": "B",
+    "explanation": "多くのIoTデバイスは初期パスワードが簡単なものや広く知られているものが設定されています。設置後すぐに強力なパスワードに変更すべきです。"
+  },
+  {
+    "id": 79,
+    "category": "IoTセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "IoTデバイスを定期的にアップデートする",
+    "optionB": "IoTデバイスは設置後にアップデートしない",
+    "correctAnswer": "A",
+    "explanation": "IoTデバイスもセキュリティの脆弱性が発見される可能性があります。製造元が提供するファームウェアアップデートを定期的に適用することが重要です。"
+  },
+  {
+    "id": 80,
+    "category": "IoTセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "すべてのIoTデバイスをインターネットに直接接続する",
+    "optionB": "IoTデバイス用の分離されたネットワークを作成する",
+    "correctAnswer": "B",
+    "explanation": "IoTデバイスが侵害された場合、分離されたネットワークを使用することで、他の重要なシステムやデータへの影響を制限できます。"
+  },
+  {
+    "id": 81,
+    "category": "IoTセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "使用していない機能やポートを有効のままにする",
+    "optionB": "使用していない機能やポートを無効にする",
+    "correctAnswer": "B",
+    "explanation": "不要な機能やポートは攻撃の入口となる可能性があります。必要ない機能は無効にして、攻撃対象領域を減らすことが重要です。"
+  },
+  {
+    "id": 82,
+    "category": "二要素認証と多要素認証",
+    "question": "セキュリティ的により安全な認証方法はどちらですか？",
+    "optionA": "SMSによる二要素認証",
+    "optionB": "認証アプリによる二要素認証",
+    "correctAnswer": "B",
+    "explanation": "SMSは中間者攻撃やSIMスワッピングに弱い場合があります。認証アプリは一般的により安全と考えられています。"
+  },
+  {
+    "id": 83,
+    "category": "二要素認証と多要素認証",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "利用可能なすべてのサービスで二要素認証を有効にする",
+    "optionB": "二要素認証は面倒なので使わない",
+    "correctAnswer": "A",
+    "explanation": "二要素認証はパスワードが漏洩しても追加の保護層を提供します。特に重要なアカウント（メール、銀行、クラウドストレージなど）では必須です。"
+  },
+  {
+    "id": 84,
+    "category": "二要素認証と多要素認証",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "二要素認証のバックアップコードを安全な場所に保管する",
+    "optionB": "二要素認証のバックアップコードは必要ないので無視する",
+    "correctAnswer": "A",
+    "explanation": "認証デバイスを紛失した場合、バックアップコードがアカウント回復の唯一の手段になることがあります。これらを安全に保管することが重要です。"
+  },
+  {
+    "id": 85,
+    "category": "二要素認証と多要素認証",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "生体認証（指紋、顔認証など）を単独の認証手段として使用する",
+    "optionB": "生体認証をパスワードなど他の認証手段と組み合わせて使用する",
+    "correctAnswer": "B",
+    "explanation": "生体認証は便利ですが、完全に安全ではありません。複数の認証方法を組み合わせることで、セキュリティが向上します。"
+  },
+  {
+    "id": 86,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "SNSの位置情報共有を常に有効にしておく",
+    "optionB": "SNSの位置情報共有を必要な時だけ有効にする",
+    "correctAnswer": "B",
+    "explanation": "常時位置情報を共有すると、行動パターンが公開され、物理的なセキュリティリスクが生じる可能性があります。必要な時だけ共有することをお勧めします。"
+  },
+  {
+    "id": 87,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "アプリのプライバシー権限を確認せずに「許可」をタップする",
+    "optionB": "アプリが要求する権限を確認し、必要最小限の権限のみを許可する",
+    "correctAnswer": "B",
+    "explanation": "不必要な権限を許可すると、プライバシーリスクが高まります。アプリの機能に必要な権限のみを許可するべきです。"
+  },
+  {
+    "id": 88,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "企業の機密文書を廃棄する際にシュレッダーにかける",
+    "optionB": "企業の機密文書をそのままゴミ箱に捨てる",
+    "correctAnswer": "A",
+    "explanation": "機密文書はゴミ箱から取得される可能性があります（ダンプスター・ダイビング）。シュレッダーやセキュアな廃棄方法を使用すべきです。"
+  },
+  {
+    "id": 89,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "重要な文書は暗号化して保存する",
+    "optionB": "重要な文書は平文のまま保存する",
+    "correctAnswer": "A",
+    "explanation": "暗号化は、デバイスが盗まれたり不正アクセスされたりした場合でも、データを保護する追加層を提供します。"
+  },
+  {
+    "id": 90,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "古いハードドライブを廃棄する前にデータ消去ソフトウェアを使用する",
+    "optionB": "古いハードドライブを「ゴミ箱を空にする」操作だけで廃棄する",
+    "correctAnswer": "A",
+    "explanation": "通常の削除操作ではデータが完全に消去されません。専用のデータ消去ソフトウェアを使用するか、物理的に破壊することをお勧めします。"
+  },
+  {
+    "id": 91,
+    "category": "ソーシャルエンジニアリング対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "知らない相手からのフレンド申請を承認する",
+    "optionB": "知らない相手からのフレンド申請は承認しない",
+    "correctAnswer": "B",
+    "explanation": "未知の連絡先は偽アカウントである可能性があり、個人情報の収集やフィッシング攻撃に利用される恐れがあります。"
+  },
+  {
+    "id": 92,
+    "category": "ブランド表記判別",
+    "question": "どちらが正しいブランド表記ですか？",
+    "optionA": "iphone",
+    "optionB": "iPhone",
+    "correctAnswer": "B",
+    "explanation": "正確な表記は「iPhone」で、「P」が大文字です。詐欺サイトでは不正確な表記が使われることがあります。"
+  },
+  {
+    "id": 93,
+    "category": "URLの安全性判断",
+    "question": "どちらがより安全なURLですか？",
+    "optionA": "https://login-amazon.com/signin",
+    "optionB": "https://amazon.com/signin",
+    "correctAnswer": "B",
+    "explanation": "「login-amazon.com」は公式のamazon.comドメインではなく、フィッシングサイトの可能性があります。アドレスバーのドメイン部分を常に確認することが重要です。"
+  },
+  {
+    "id": 94,
+    "category": "フィッシングメール判別",
+    "question": "どちらが本物の可能性が高いメールタイトルですか？",
+    "optionA": "【必読】セキュリティ違反！！あなたのアカウントは停止されました",
+    "optionB": "【お知らせ】アカウントのセキュリティ設定の見直しについて",
+    "correctAnswer": "B",
+    "explanation": "感嘆符の多用や過度に煽るような表現は詐欺メールに特徴的です。公式の通知は通常、穏やかな表現を使います。"
+  },
+  {
+    "id": 95,
+    "category": "データバックアップとリカバリー",
+    "question": "セキュリティ的により安全なバックアップ方法はどちらですか？",
+    "optionA": "すべてのバックアップを同じ場所に保存する",
+    "optionB": "バックアップの一部を物理的に異なる場所に保存する",
+    "correctAnswer": "B",
+    "explanation": "火災や自然災害などの物理的な脅威からデータを保護するためには、オフサイトバックアップ（物理的に離れた場所での保管）が重要です。"
+  },
+  {
+    "id": 96,
+    "category": "マルウェアとウイルス対策",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "不審なメールの添付ファイルをスキャンせずに開く",
+    "optionB": "不審なメールの添付ファイルは開かずに送信者に確認する",
+    "correctAnswer": "B",
+    "explanation": "たとえウイルススキャンが陰性でも、ゼロデイ攻撃などを検知できない場合があります。不審なメールの添付ファイルは開かず、別の方法で送信者に確認すべきです。"
+  },
+  {
+    "id": 97,
+    "category": "ネットワークセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "企業のネットワークでファイル共有サービスを利用する前にIT部門に確認する",
+    "optionB": "便利なので確認せずに各種ファイル共有サービスを利用する",
+    "correctAnswer": "A",
+    "explanation": "承認されていないファイル共有サービスはシャドーITと呼ばれ、企業データの漏洩リスクを高めます。IT部門が承認したツールのみを使用すべきです。"
+  },
+  {
+    "id": 98,
+    "category": "クラウドセキュリティ",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "個人のクラウドアカウントと業務用のクラウドアカウントを分けて使用する",
+    "optionB": "便利なので個人と業務で同じクラウドアカウントを使用する",
+    "correctAnswer": "A",
+    "explanation": "個人アカウントと業務アカウントを分けることで、プライバシーの保護と企業データの漏洩リスク低減につながります。"
+  },
+  {
+    "id": 99,
+    "category": "二要素認証と多要素認証",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "ハードウェアセキュリティキーを認証に使用する",
+    "optionB": "電話番号を利用したSMS認証を使用する",
+    "correctAnswer": "A",
+    "explanation": "ハードウェアセキュリティキー（YubiKeyなど）は、SMSやアプリベースの二要素認証よりも安全で、フィッシング攻撃に対する耐性が高いです。"
+  },
+  {
+    "id": 100,
+    "category": "プライバシー設定とデータ保護",
+    "question": "セキュリティ的により安全な行動はどちらですか？",
+    "optionA": "定期的にプライバシー設定とアクセス権限を見直す",
+    "optionB": "一度設定したプライバシー設定とアクセス権限はそのままにする",
+    "correctAnswer": "A",
+    "explanation": "サービスやアプリのプライバシーポリシーは変更される可能性があり、知らないうちに共有範囲が拡大していることがあります。定期的な見直しが重要です。"
+  }
+]
