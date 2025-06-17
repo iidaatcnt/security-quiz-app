@@ -17,7 +17,7 @@ const QuizComponent: React.FC = () => {
     gamePhase: 'start'
   });
 
-  const questions: Question[] = questionsData;
+  const questions: Question[] = questionsData as Question[];
 
   const startQuiz = () => {
     const randomQuestions = getRandomQuestions(questions, 10);
