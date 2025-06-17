@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Question, QuizState } from '../data/types';
 import { getRandomQuestions } from '../lib/utils';
 import questionsData from '../data/questions.json';
@@ -38,7 +38,7 @@ const QuizComponent: React.FC = () => {
     const isCorrect = selectedOption === currentQuestion.correctAnswer;
 
     let newScore = quizState.score;
-    let newWrongQuestions = [...quizState.wrongQuestions];
+    const newWrongQuestions = [...quizState.wrongQuestions];
 
     if (isCorrect) {
       newScore += 1;
